@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country Sales Visualization</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+<div class="intro">
+    <h1 class="logo-header">
+        <span class="logo">Online</span>
+        <span class="logo">Sales</span>
+        <span class="logo">Visualized</span>
+    </h1>
+</div>
+<div id="map"></div>
+
+<div id="country-overlay">
+    <div id="overlay-content">
+        <button id="back-to-map">Back to Map</button>
+        <div id="chart-container">
+            <div id="chart-toggle-container">
+                <div id="controls"></div>
+                <button id="bar-graph-button" class="chart-toggle-btn">Bar Graph Race</button>
+                <button id="pie-chart-button" class="chart-toggle-btn">Pie Chart</button>
+                <button id="info-button">Info on this Data</button>
+            </div>
+            <div id="chart">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="main.js"></script>
+<script src="mainbr.js"></script>
+<script src="mainpi.js"></script>
+</body>
+</html>

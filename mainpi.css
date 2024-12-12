@@ -1,0 +1,45 @@
+/* Chart Container Styles */
+#controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#chart-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Tooltip Styles */
+.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 220px;
+    padding: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background: white;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    pointer-events: none;
+    z-index: 1000;
+}
+
+/* Button Styles */
+#controls button {
+    margin: 0 10px;
+    padding: 8px 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+    background-color: #e0e0e0;
+}
+
+#controls button:active {
+    background-color: #d0d0d0;
+}
